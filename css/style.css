@@ -1,0 +1,210 @@
+*{
+    margin: 0 auto  ;
+    padding: 0 ;
+    font-family: sans-serif;
+    box-sizing: content-box;
+}
+.Head_Container {
+    position: relative;
+    margin: 5px auto;
+    max-width: 0px;
+    min-height: 920px;
+    background: #fff ;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+.Head_Container .headleft{
+    position: absolute;
+    background: #b4d8f1;
+    
+   
+    
+}
+.Head_Container .headright{
+    position: relative;
+    background: #c9cac7;
+    padding: 475px ;
+
+    
+}
+
+
+
+/*RESUME*/
+    /*left*/
+ .Resume_Container{
+     position: relative;
+     margin: 25px auto;
+     width: 100%;
+     max-width: 850px;
+     min-height: 850px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+ }   
+ .Resume_Container .Leftside{
+     position: relative;   
+     background: #3c4144;
+     padding: 40px;
+
+ }
+ .Resume_Container .Rightside{
+    position: relative;   
+    background: #fff;
+    padding: 40px;
+    
+}
+.porfiletext {
+    position:relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 1px sold rgba(255,255,255,0.2);
+}
+.porfiletext .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.porfiletext .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.porfiletext h2{
+    color:  #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.porfiletext h2 span{
+    font-size:  0.8em;
+    font-weight: 300;
+}
+.ContactInfo{
+    padding-top: 40px;
+}
+.title{
+    color: #b4cfed;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.ContactInfo ul{
+    position: relative;
+    
+}
+.ContactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin:  10px 0;
+    cursor: pointer;
+}
+.ContactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #b4cfed ;
+}
+.ContactInfo ul li span{
+    color: #b1b4a6;
+    font-weight: 300;
+}
+.ContactInfo .Ed li {
+   margin-bottom: 5px;
+}
+.ContactInfo .Ed h5{
+    color: #b4cfed;
+    font-weight: 500;
+}
+.Resume_Container .Ed h4{
+    color: #b1b4a6;
+    font-weight: 500;
+}
+/* right*/
+.Resume_Container .rightside{
+    position: relative;
+    background: #acb396;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+}
+.about :last-child{
+    margin-bottom: 0;
+}
+.titleright{
+    color: #3c4144;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+p{
+    color: #45495b;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .company{
+    min-width: 150px;
+}
+.about .box .company h5{
+    text-transform: uppercase;
+    color: #3c4144;
+    font-weight: 600;
+}
+.about .box .textright p{
+    text-transform: uppercase;
+    color: #45495b;
+    font-size: 14px;
+}
+.skills .box{
+    position: relative;
+    width:  100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #787a7c;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #d9dbdb;
+}
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #6ccbf7;
+}
+
+/*respon*/
+@media(max-width: 1000px)
+{
+.Resume_Container{
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+   /*RESUME*/
