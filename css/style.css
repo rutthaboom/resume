@@ -4,32 +4,6 @@
     font-family: sans-serif;
     box-sizing: content-box;
 }
-.Head_Container {
-    position: relative;
-    margin: 5px auto;
-    max-width: 0px;
-    min-height: 920px;
-    background: #fff ;
-    display: grid;
-     grid-template-columns: 1fr 1fr 1fr ;
-    
-}
-.Head_Container .headleft{
-    position: absolute;
-    background: #b4d8f1;
-    
-   
-    
-}
-.Head_Container .headright{
-    position: relative;
-    background: #c9cac7;
-    padding: 475px ;
-
-    
-}
-
-
 
 /*RESUME*/
     /*left*/
@@ -118,6 +92,10 @@
     color: #b4cfed ;
 }
 .ContactInfo ul li span{
+    color: #b1b4a6;
+    font-weight: 300;
+}
+.ContactInfo ul li a{
     color: #b1b4a6;
     font-weight: 300;
 }
